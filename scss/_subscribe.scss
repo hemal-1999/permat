@@ -1,0 +1,43 @@
+.subscribe{
+    background-image: url(../img/banner-3.jpg);
+    @exetnd %generic-background;
+    padding: 100px 0;
+    &-box{
+        background-color: #fff;
+        padding: 60px 0px;
+        margin-top: 50px;
+        border-radius: 20px;
+        &-input{
+            padding: 5px;
+            width: 90%;
+            margin: auto;
+            border: 2px solid #E4E6F8;
+            border-radius: 100px;
+            input{
+                width: 75%;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 0;
+                border: none;
+                border-radius: 100px;
+                color: #777;
+                &:invalid{
+                    border: 1px solid red;
+                }
+            }
+            button{
+                width: 25%;
+                background-color: #FF4D1C;
+                padding: 17px 17px 17px 0;
+                border: none;
+                color: #fff;
+                outline: none;
+                margin-top: 3px;
+                border-top-right-radius: 100px;
+                border-bottom-right-radius: 100px;
+                float: right;
+            }
+        }
+    }
+}

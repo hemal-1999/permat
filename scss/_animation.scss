@@ -1,0 +1,23 @@
+//updown animation ==================
+
+.upDown-animation{
+    animation-name: upDown;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDown{
+    0%{
+        transform: translateY(0);
+    }
+    33.33%{
+        transform: translateY(-20px);
+    }
+    66.66%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,64 @@
+header#header{
+    padding: 40px 0;
+    background-image: url(../img/banner-1.png);
+    @extend %generic-background;
+    .icofont-bar{
+        display: none;
+    }
+    .icofont-bar-code,.icofont-brand-nexus{
+        font-size: 50px;
+        display: block;
+        color: #FF4D1C;
+        cursor: pointer;
+        text-align: center;
+    }
+    // navigation =================
+    ul.header-list{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        li{
+            
+            display: inline-block;
+            &{
+                margin-right: 15px;
+            }
+            &:hover{
+                a{
+                    color: #FF4D1C;
+                }
+            }
+            a{
+                color: #070000;
+                font-size: 18px;
+                transition: .5s;
+                font-weight: 600;
+            }
+        }
+    }
+    img{
+        margin-top: 20px;
+    }
+    nav.header-nav{
+        padding: 25px 0;
+    }
+    // header-content =================================
+    .header-content{
+        padding: 110px 0;
+        h1{
+            font-size: 55px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #777;
+            margin-bottom: 50px;
+        }
+        img{
+            max-width: 340px;
+            margin: auto;
+        }
+    }
+    
+}
